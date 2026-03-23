@@ -1,0 +1,9 @@
+{
+  "include": [
+    "src",
+    "validate.py"
+  ],
+  "venvPath": ".",
+  "venv": ".venv",
+  "typeCheckingMode": "basic"
+}

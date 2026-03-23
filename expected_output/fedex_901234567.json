@@ -1,0 +1,1606 @@
+{
+  "doc_type": "carrier_invoice",
+  "invoice_number": "901234567",
+  "invoice_date": "2025-12-15",
+  "due_date": "2026-01-14",
+  "customer_number": "2847561",
+  "total_amount_usd": 10179.66,
+  "total_amount_ils": 36850.37,
+  "bill_to": {
+    "name": "GLOBEX SHIPPING LTD.",
+    "address": "42 Herzl St., Petah Tikva 4959042, Israel"
+  },
+  "vat_summary": [
+    {
+      "rate_percent": 17.0,
+      "charges_usd": 1675.77,
+      "net_usd": 1675.77,
+      "vat_usd": 284.88,
+      "total_usd": 1960.65
+    },
+    {
+      "rate_percent": 0.0,
+      "charges_usd": 8219.01,
+      "net_usd": 8219.01,
+      "vat_usd": 0.0,
+      "total_usd": 8219.01
+    }
+  ],
+  "shipments": [
+    {
+      "tracking_number": "888966722344",
+      "ship_date": "2025-12-05",
+      "service_type": "International Priority",
+      "pieces": 5,
+      "actual_weight_kg": 21.19,
+      "billed_weight_kg": 25.63,
+      "dimensions_cm": null,
+      "reference": "PO-671858",
+      "shipper": {
+        "name": "Acme Logistics",
+        "city": "Petah Tikva",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Harvest Moon Ltd.",
+        "city": "Amsterdam",
+        "country": "NL"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 71.08,
+          "amount_ils": 257.31
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -3.98,
+          "amount_ils": -14.41
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 11.42,
+          "amount_ils": 41.34
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 8.98,
+          "amount_ils": 32.51
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 34.17,
+          "amount_ils": 123.7
+        }
+      ],
+      "taxable_usd": 43.15,
+      "non_taxable_usd": 78.52,
+      "subtotal_usd": 121.67
+    },
+    {
+      "tracking_number": "888941244663",
+      "ship_date": "2025-11-25",
+      "service_type": "International Priority Freight",
+      "pieces": 6,
+      "actual_weight_kg": 9.14,
+      "billed_weight_kg": 14.35,
+      "dimensions_cm": "64x48x12",
+      "reference": "PO-662275",
+      "shipper": {
+        "name": "Mediterranean Imports",
+        "city": "Haifa",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Nordic Tech Solutions",
+        "city": "Stockholm",
+        "country": "SE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 86.8,
+          "amount_ils": 314.22
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 11.73,
+          "amount_ils": 42.46
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 34.17,
+          "amount_ils": 123.7
+        }
+      ],
+      "taxable_usd": 34.17,
+      "non_taxable_usd": 98.53,
+      "subtotal_usd": 132.7
+    },
+    {
+      "tracking_number": "888918883684",
+      "ship_date": "2025-12-12",
+      "service_type": "International Priority",
+      "pieces": 8,
+      "actual_weight_kg": 54.22,
+      "billed_weight_kg": 83.89,
+      "dimensions_cm": "46x49x54",
+      "reference": "PO-779514",
+      "shipper": {
+        "name": "NovaTech Industries",
+        "city": "Rehovot",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Atlas Components SRL",
+        "city": "Milan",
+        "country": "IT"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 64.63,
+          "amount_ils": 233.96
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -10.14,
+          "amount_ils": -36.71
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 10.05,
+          "amount_ils": 36.38
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 23.51,
+          "amount_ils": 85.11
+        },
+        {
+          "type": "AHS Freight",
+          "amount_usd": 27.97,
+          "amount_ils": 101.25
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 13.22,
+          "amount_ils": 47.86
+        }
+      ],
+      "taxable_usd": 64.7,
+      "non_taxable_usd": 64.54,
+      "subtotal_usd": 129.24
+    },
+    {
+      "tracking_number": "888972820592",
+      "ship_date": "2025-11-21",
+      "service_type": "International First",
+      "pieces": 8,
+      "actual_weight_kg": 33.93,
+      "billed_weight_kg": 80.48,
+      "dimensions_cm": "53x32x25",
+      "reference": "PO-665158",
+      "shipper": {
+        "name": "Orion Supply Chain",
+        "city": "Ashdod",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Nordic Tech Solutions",
+        "city": "Stockholm",
+        "country": "SE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 144.04,
+          "amount_ils": 521.42
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -33.07,
+          "amount_ils": -119.71
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 18.19,
+          "amount_ils": 65.85
+        },
+        {
+          "type": "AHS Freight",
+          "amount_usd": 16.88,
+          "amount_ils": 61.11
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 67.65,
+          "amount_ils": 244.89
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 21.45,
+          "amount_ils": 77.65
+        }
+      ],
+      "taxable_usd": 105.98,
+      "non_taxable_usd": 129.16,
+      "subtotal_usd": 235.14
+    },
+    {
+      "tracking_number": "888931682744",
+      "ship_date": "2025-12-01",
+      "service_type": "International Priority Freight",
+      "pieces": 1,
+      "actual_weight_kg": 57.98,
+      "billed_weight_kg": 67.94,
+      "dimensions_cm": "116x49x59",
+      "reference": "PO-216970",
+      "shipper": {
+        "name": "Apex Trading Co.",
+        "city": "Rishon LeZion",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Quantum Devices AG",
+        "city": "Zurich",
+        "country": "CH"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 156.8,
+          "amount_ils": 567.62
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -7.94,
+          "amount_ils": -28.74
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 29.22,
+          "amount_ils": 105.78
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 67.52,
+          "amount_ils": 244.42
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 21.22,
+          "amount_ils": 76.82
+        }
+      ],
+      "taxable_usd": 88.74,
+      "non_taxable_usd": 178.08,
+      "subtotal_usd": 266.82
+    },
+    {
+      "tracking_number": "888936998038",
+      "ship_date": "2025-12-02",
+      "service_type": "International First",
+      "pieces": 6,
+      "actual_weight_kg": 41.79,
+      "billed_weight_kg": 48.8,
+      "dimensions_cm": "59x45x13",
+      "reference": null,
+      "shipper": {
+        "name": "Acme Logistics",
+        "city": "Petah Tikva",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Emerald Isle Logistics",
+        "city": "Dublin",
+        "country": "IE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 270.45,
+          "amount_ils": 979.03
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -53.11,
+          "amount_ils": -192.26
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 58.78,
+          "amount_ils": 212.78
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 25.81,
+          "amount_ils": 93.43
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 61.66,
+          "amount_ils": 223.21
+        }
+      ],
+      "taxable_usd": 87.47,
+      "non_taxable_usd": 276.12,
+      "subtotal_usd": 363.59
+    },
+    {
+      "tracking_number": "888986644106",
+      "ship_date": "2025-12-07",
+      "service_type": "International Priority Freight",
+      "pieces": 6,
+      "actual_weight_kg": 37.52,
+      "billed_weight_kg": 66.65,
+      "dimensions_cm": null,
+      "reference": null,
+      "shipper": {
+        "name": "NovaTech Industries",
+        "city": "Rehovot",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Silver Stream Corp.",
+        "city": "New York",
+        "country": "US"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 175.31,
+          "amount_ils": 634.62
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -16.83,
+          "amount_ils": -60.92
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 19.02,
+          "amount_ils": 68.85
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 32.45,
+          "amount_ils": 117.47
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 44.28,
+          "amount_ils": 160.29
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 7.65,
+          "amount_ils": 27.69
+        }
+      ],
+      "taxable_usd": 84.38,
+      "non_taxable_usd": 177.5,
+      "subtotal_usd": 261.88
+    },
+    {
+      "tracking_number": "888920117988",
+      "ship_date": "2025-12-03",
+      "service_type": "International Economy Freight",
+      "pieces": 8,
+      "actual_weight_kg": 68.73,
+      "billed_weight_kg": 88.36,
+      "dimensions_cm": null,
+      "reference": "PO-544154",
+      "shipper": {
+        "name": "Digital Systems Corp",
+        "city": "Netanya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Golden Gate Supply",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 205.61,
+          "amount_ils": 744.31
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 36.68,
+          "amount_ils": 132.78
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 27.66,
+          "amount_ils": 100.13
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 41.5,
+          "amount_ils": 150.23
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 8.67,
+          "amount_ils": 31.39
+        }
+      ],
+      "taxable_usd": 77.83,
+      "non_taxable_usd": 242.29,
+      "subtotal_usd": 320.12
+    },
+    {
+      "tracking_number": "888917849494",
+      "ship_date": "2025-11-29",
+      "service_type": "International First",
+      "pieces": 1,
+      "actual_weight_kg": 82.38,
+      "billed_weight_kg": 196.85,
+      "dimensions_cm": "41x67x41",
+      "reference": "PO-520521",
+      "shipper": {
+        "name": "TechParts Ltd.",
+        "city": "Tel Aviv",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Rhine Valley GmbH",
+        "city": "Frankfurt",
+        "country": "DE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 409.51,
+          "amount_ils": 1482.43
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -20.65,
+          "amount_ils": -74.75
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 86.48,
+          "amount_ils": 313.06
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 26.81,
+          "amount_ils": 97.05
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 16.53,
+          "amount_ils": 59.84
+        }
+      ],
+      "taxable_usd": 43.34,
+      "non_taxable_usd": 475.34,
+      "subtotal_usd": 518.68
+    },
+    {
+      "tracking_number": "888944999379",
+      "ship_date": "2025-12-03",
+      "service_type": "International First",
+      "pieces": 6,
+      "actual_weight_kg": 5.33,
+      "billed_weight_kg": 10.0,
+      "dimensions_cm": "87x35x13",
+      "reference": "PO-184002",
+      "shipper": {
+        "name": "Acme Logistics",
+        "city": "Petah Tikva",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Harvest Moon Ltd.",
+        "city": "Amsterdam",
+        "country": "NL"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 388.31,
+          "amount_ils": 1405.68
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -24.69,
+          "amount_ils": -89.38
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 57.65,
+          "amount_ils": 208.69
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 34.92,
+          "amount_ils": 126.41
+        }
+      ],
+      "taxable_usd": 34.92,
+      "non_taxable_usd": 421.27,
+      "subtotal_usd": 456.19
+    },
+    {
+      "tracking_number": "888997775215",
+      "ship_date": "2025-11-21",
+      "service_type": "International Priority Freight",
+      "pieces": 7,
+      "actual_weight_kg": 11.56,
+      "billed_weight_kg": 22.75,
+      "dimensions_cm": "116x24x10",
+      "reference": "PO-690341",
+      "shipper": {
+        "name": "Digital Systems Corp",
+        "city": "Netanya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Atlas Components SRL",
+        "city": "Milan",
+        "country": "IT"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 448.38,
+          "amount_ils": 1623.14
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -41.53,
+          "amount_ils": -150.34
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 95.05,
+          "amount_ils": 344.08
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 80.02,
+          "amount_ils": 289.67
+        }
+      ],
+      "taxable_usd": 80.02,
+      "non_taxable_usd": 501.9,
+      "subtotal_usd": 581.92
+    },
+    {
+      "tracking_number": "888995511909",
+      "ship_date": "2025-12-01",
+      "service_type": "International Priority",
+      "pieces": 2,
+      "actual_weight_kg": 79.84,
+      "billed_weight_kg": 95.92,
+      "dimensions_cm": null,
+      "reference": null,
+      "shipper": {
+        "name": "Apex Trading Co.",
+        "city": "Rishon LeZion",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Atlas Components SRL",
+        "city": "Milan",
+        "country": "IT"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 264.59,
+          "amount_ils": 957.82
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -45.24,
+          "amount_ils": -163.77
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 32.92,
+          "amount_ils": 119.17
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 21.19,
+          "amount_ils": 76.71
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 9.24,
+          "amount_ils": 33.45
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 5.07,
+          "amount_ils": 18.35
+        }
+      ],
+      "taxable_usd": 35.5,
+      "non_taxable_usd": 252.27,
+      "subtotal_usd": 287.77
+    },
+    {
+      "tracking_number": "888993303777",
+      "ship_date": "2025-11-23",
+      "service_type": "International Economy",
+      "pieces": 7,
+      "actual_weight_kg": 47.9,
+      "billed_weight_kg": 55.94,
+      "dimensions_cm": "108x34x44",
+      "reference": null,
+      "shipper": {
+        "name": "BlueStar Electronics",
+        "city": "Ramat Gan",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Pinnacle Parts SA",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 188.22,
+          "amount_ils": 681.36
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -25.59,
+          "amount_ils": -92.64
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 27.06,
+          "amount_ils": 97.96
+        },
+        {
+          "type": "AHS Freight",
+          "amount_usd": 29.31,
+          "amount_ils": 106.1
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 16.2,
+          "amount_ils": 58.64
+        }
+      ],
+      "taxable_usd": 45.51,
+      "non_taxable_usd": 189.69,
+      "subtotal_usd": 235.2
+    },
+    {
+      "tracking_number": "888940547349",
+      "ship_date": "2025-12-08",
+      "service_type": "International Economy",
+      "pieces": 3,
+      "actual_weight_kg": 82.99,
+      "billed_weight_kg": 183.92,
+      "dimensions_cm": "23x37x57",
+      "reference": "PO-920391",
+      "shipper": {
+        "name": "Digital Systems Corp",
+        "city": "Netanya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Quantum Devices AG",
+        "city": "Zurich",
+        "country": "CH"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 421.29,
+          "amount_ils": 1525.07
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 83.12,
+          "amount_ils": 300.89
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 20.75,
+          "amount_ils": 75.12
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 31.55,
+          "amount_ils": 114.21
+        }
+      ],
+      "taxable_usd": 52.3,
+      "non_taxable_usd": 504.41,
+      "subtotal_usd": 556.71
+    },
+    {
+      "tracking_number": "888961700055",
+      "ship_date": "2025-11-22",
+      "service_type": "International Priority",
+      "pieces": 6,
+      "actual_weight_kg": 24.04,
+      "billed_weight_kg": 26.54,
+      "dimensions_cm": "64x80x35",
+      "reference": "PO-984642",
+      "shipper": {
+        "name": "Digital Systems Corp",
+        "city": "Netanya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Eastern Star Trading",
+        "city": "Shanghai",
+        "country": "CN"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 257.53,
+          "amount_ils": 932.26
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 55.74,
+          "amount_ils": 201.78
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 24.25,
+          "amount_ils": 87.79
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 10.93,
+          "amount_ils": 39.57
+        }
+      ],
+      "taxable_usd": 35.18,
+      "non_taxable_usd": 313.27,
+      "subtotal_usd": 348.45
+    },
+    {
+      "tracking_number": "888933357554",
+      "ship_date": "2025-12-13",
+      "service_type": "International First",
+      "pieces": 1,
+      "actual_weight_kg": 60.39,
+      "billed_weight_kg": 60.54,
+      "dimensions_cm": "88x40x33",
+      "reference": "PO-796503",
+      "shipper": {
+        "name": "Digital Systems Corp",
+        "city": "Netanya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Atlas Components SRL",
+        "city": "Milan",
+        "country": "IT"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 417.12,
+          "amount_ils": 1509.97
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -76.2,
+          "amount_ils": -275.84
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 86.76,
+          "amount_ils": 314.07
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 18.3,
+          "amount_ils": 66.25
+        }
+      ],
+      "taxable_usd": 18.3,
+      "non_taxable_usd": 427.68,
+      "subtotal_usd": 445.98
+    },
+    {
+      "tracking_number": "888913278320",
+      "ship_date": "2025-12-04",
+      "service_type": "International First",
+      "pieces": 1,
+      "actual_weight_kg": 26.18,
+      "billed_weight_kg": 34.43,
+      "dimensions_cm": "97x56x39",
+      "reference": "PO-808446",
+      "shipper": {
+        "name": "Precision Components",
+        "city": "Herzliya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Eastern Star Trading",
+        "city": "Shanghai",
+        "country": "CN"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 123.69,
+          "amount_ils": 447.76
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -28.48,
+          "amount_ils": -103.1
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 14.89,
+          "amount_ils": 53.9
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 15.31,
+          "amount_ils": 55.42
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 15.97,
+          "amount_ils": 57.81
+        }
+      ],
+      "taxable_usd": 31.28,
+      "non_taxable_usd": 110.1,
+      "subtotal_usd": 141.38
+    },
+    {
+      "tracking_number": "888972363359",
+      "ship_date": "2025-11-16",
+      "service_type": "International Economy",
+      "pieces": 2,
+      "actual_weight_kg": 38.98,
+      "billed_weight_kg": 90.79,
+      "dimensions_cm": "111x64x41",
+      "reference": null,
+      "shipper": {
+        "name": "BlueStar Electronics",
+        "city": "Ramat Gan",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Emerald Isle Logistics",
+        "city": "Dublin",
+        "country": "IE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 96.24,
+          "amount_ils": 348.39
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -21.99,
+          "amount_ils": -79.6
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 19.85,
+          "amount_ils": 71.86
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 29.71,
+          "amount_ils": 107.55
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 14.0,
+          "amount_ils": 50.68
+        }
+      ],
+      "taxable_usd": 43.71,
+      "non_taxable_usd": 94.1,
+      "subtotal_usd": 137.81
+    },
+    {
+      "tracking_number": "888982498004",
+      "ship_date": "2025-12-06",
+      "service_type": "International First",
+      "pieces": 6,
+      "actual_weight_kg": 80.78,
+      "billed_weight_kg": 188.79,
+      "dimensions_cm": "112x79x37",
+      "reference": "PO-674485",
+      "shipper": {
+        "name": "Apex Trading Co.",
+        "city": "Rishon LeZion",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Emerald Isle Logistics",
+        "city": "Dublin",
+        "country": "IE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 220.05,
+          "amount_ils": 796.58
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -48.92,
+          "amount_ils": -177.09
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 41.86,
+          "amount_ils": 151.53
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 29.0,
+          "amount_ils": 104.98
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 20.08,
+          "amount_ils": 72.69
+        }
+      ],
+      "taxable_usd": 49.08,
+      "non_taxable_usd": 212.99,
+      "subtotal_usd": 262.07
+    },
+    {
+      "tracking_number": "888966240084",
+      "ship_date": "2025-11-17",
+      "service_type": "International Economy",
+      "pieces": 7,
+      "actual_weight_kg": 59.14,
+      "billed_weight_kg": 121.81,
+      "dimensions_cm": null,
+      "reference": "PO-668969",
+      "shipper": {
+        "name": "Mediterranean Imports",
+        "city": "Haifa",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Nordic Tech Solutions",
+        "city": "Stockholm",
+        "country": "SE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 228.36,
+          "amount_ils": 826.66
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -49.46,
+          "amount_ils": -179.05
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 43.93,
+          "amount_ils": 159.03
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 31.78,
+          "amount_ils": 115.04
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 12.8,
+          "amount_ils": 46.34
+        }
+      ],
+      "taxable_usd": 44.58,
+      "non_taxable_usd": 222.83,
+      "subtotal_usd": 267.41
+    },
+    {
+      "tracking_number": "888953936531",
+      "ship_date": "2025-12-02",
+      "service_type": "International First",
+      "pieces": 4,
+      "actual_weight_kg": 41.76,
+      "billed_weight_kg": 58.86,
+      "dimensions_cm": "69x58x52",
+      "reference": "PO-523956",
+      "shipper": {
+        "name": "Summit Materials",
+        "city": "Beer Sheva",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Sapphire Coast Pty",
+        "city": "Melbourne",
+        "country": "AU"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 335.54,
+          "amount_ils": 1214.65
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 73.04,
+          "amount_ils": 264.4
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 9.29,
+          "amount_ils": 33.63
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 17.8,
+          "amount_ils": 64.44
+        }
+      ],
+      "taxable_usd": 27.09,
+      "non_taxable_usd": 408.58,
+      "subtotal_usd": 435.67
+    },
+    {
+      "tracking_number": "888959512272",
+      "ship_date": "2025-11-21",
+      "service_type": "International Economy Freight",
+      "pieces": 7,
+      "actual_weight_kg": 24.01,
+      "billed_weight_kg": 58.27,
+      "dimensions_cm": "30x75x11",
+      "reference": "PO-154615",
+      "shipper": {
+        "name": "Orion Supply Chain",
+        "city": "Ashdod",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Delta Freight Partners",
+        "city": "London",
+        "country": "GB"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 449.96,
+          "amount_ils": 1628.86
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -81.01,
+          "amount_ils": -293.26
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 80.19,
+          "amount_ils": 290.29
+        },
+        {
+          "type": "AHS Freight",
+          "amount_usd": 15.82,
+          "amount_ils": 57.27
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 37.57,
+          "amount_ils": 136.0
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 30.98,
+          "amount_ils": 112.15
+        }
+      ],
+      "taxable_usd": 84.37,
+      "non_taxable_usd": 449.14,
+      "subtotal_usd": 533.51
+    },
+    {
+      "tracking_number": "888967495923",
+      "ship_date": "2025-11-20",
+      "service_type": "International First",
+      "pieces": 2,
+      "actual_weight_kg": 66.22,
+      "billed_weight_kg": 82.49,
+      "dimensions_cm": "94x18x29",
+      "reference": "PO-493537",
+      "shipper": {
+        "name": "Summit Materials",
+        "city": "Beer Sheva",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Harvest Moon Ltd.",
+        "city": "Amsterdam",
+        "country": "NL"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 199.61,
+          "amount_ils": 722.59
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 36.5,
+          "amount_ils": 132.13
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 28.86,
+          "amount_ils": 104.47
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 14.84,
+          "amount_ils": 53.72
+        }
+      ],
+      "taxable_usd": 43.7,
+      "non_taxable_usd": 236.11,
+      "subtotal_usd": 279.81
+    },
+    {
+      "tracking_number": "888921631697",
+      "ship_date": "2025-12-06",
+      "service_type": "International Priority Freight",
+      "pieces": 6,
+      "actual_weight_kg": 1.57,
+      "billed_weight_kg": 2.56,
+      "dimensions_cm": "75x61x50",
+      "reference": "PO-582071",
+      "shipper": {
+        "name": "TechParts Ltd.",
+        "city": "Tel Aviv",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Pinnacle Parts SA",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 328.53,
+          "amount_ils": 1189.28
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -64.64,
+          "amount_ils": -234.0
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 21.16,
+          "amount_ils": 76.6
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 22.03,
+          "amount_ils": 79.75
+        }
+      ],
+      "taxable_usd": 43.19,
+      "non_taxable_usd": 263.89,
+      "subtotal_usd": 307.08
+    },
+    {
+      "tracking_number": "888912314351",
+      "ship_date": "2025-11-23",
+      "service_type": "International Economy Freight",
+      "pieces": 8,
+      "actual_weight_kg": 48.65,
+      "billed_weight_kg": 97.41,
+      "dimensions_cm": "83x56x21",
+      "reference": "PO-472060",
+      "shipper": {
+        "name": "Digital Systems Corp",
+        "city": "Netanya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Golden Gate Supply",
+        "city": "San Francisco",
+        "country": "US"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 366.1,
+          "amount_ils": 1325.28
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -82.76,
+          "amount_ils": -299.59
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 48.75,
+          "amount_ils": 176.48
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 23.96,
+          "amount_ils": 86.74
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 27.44,
+          "amount_ils": 99.33
+        }
+      ],
+      "taxable_usd": 51.4,
+      "non_taxable_usd": 332.09,
+      "subtotal_usd": 383.49
+    },
+    {
+      "tracking_number": "888980415568",
+      "ship_date": "2025-11-17",
+      "service_type": "International Priority Freight",
+      "pieces": 4,
+      "actual_weight_kg": 26.37,
+      "billed_weight_kg": 49.37,
+      "dimensions_cm": "87x59x37",
+      "reference": "PO-677124",
+      "shipper": {
+        "name": "Digital Systems Corp",
+        "city": "Netanya",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Eastern Star Trading",
+        "city": "Shanghai",
+        "country": "CN"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 172.28,
+          "amount_ils": 623.65
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 22.43,
+          "amount_ils": 81.2
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 8.85,
+          "amount_ils": 32.04
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 22.47,
+          "amount_ils": 81.34
+        },
+        {
+          "type": "Oversize",
+          "amount_usd": 42.98,
+          "amount_ils": 155.59
+        }
+      ],
+      "taxable_usd": 74.3,
+      "non_taxable_usd": 194.71,
+      "subtotal_usd": 269.01
+    },
+    {
+      "tracking_number": "888987446468",
+      "ship_date": "2025-12-04",
+      "service_type": "International Priority Freight",
+      "pieces": 4,
+      "actual_weight_kg": 25.53,
+      "billed_weight_kg": 39.35,
+      "dimensions_cm": "110x31x27",
+      "reference": null,
+      "shipper": {
+        "name": "TechParts Ltd.",
+        "city": "Tel Aviv",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Quantum Devices AG",
+        "city": "Zurich",
+        "country": "CH"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 57.63,
+          "amount_ils": 208.62
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -13.76,
+          "amount_ils": -49.81
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 10.97,
+          "amount_ils": 39.71
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 5.25,
+          "amount_ils": 19.01
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 20.93,
+          "amount_ils": 75.77
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 13.62,
+          "amount_ils": 49.3
+        },
+        {
+          "type": "Reshumon Fee",
+          "amount_usd": 6.31,
+          "amount_ils": 22.84
+        }
+      ],
+      "taxable_usd": 46.11,
+      "non_taxable_usd": 54.84,
+      "subtotal_usd": 100.95
+    },
+    {
+      "tracking_number": "888989699989",
+      "ship_date": "2025-12-05",
+      "service_type": "International Priority",
+      "pieces": 5,
+      "actual_weight_kg": 7.7,
+      "billed_weight_kg": 10.57,
+      "dimensions_cm": "73x43x59",
+      "reference": "PO-572398",
+      "shipper": {
+        "name": "Mediterranean Imports",
+        "city": "Haifa",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Pacific Wave Inc.",
+        "city": "Los Angeles",
+        "country": "US"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 412.03,
+          "amount_ils": 1491.55
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -69.1,
+          "amount_ils": -250.14
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 69.32,
+          "amount_ils": 250.94
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 24.2,
+          "amount_ils": 87.6
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 28.59,
+          "amount_ils": 103.5
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 7.4,
+          "amount_ils": 26.79
+        },
+        {
+          "type": "Out of Delivery Area",
+          "amount_usd": 22.26,
+          "amount_ils": 80.58
+        }
+      ],
+      "taxable_usd": 82.45,
+      "non_taxable_usd": 412.25,
+      "subtotal_usd": 494.7
+    },
+    {
+      "tracking_number": "888972907576",
+      "ship_date": "2025-11-30",
+      "service_type": "International Priority Freight",
+      "pieces": 5,
+      "actual_weight_kg": 60.24,
+      "billed_weight_kg": 123.76,
+      "dimensions_cm": "107x44x26",
+      "reference": "PO-755420",
+      "shipper": {
+        "name": "Acme Logistics",
+        "city": "Petah Tikva",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Nordic Tech Solutions",
+        "city": "Stockholm",
+        "country": "SE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 279.76,
+          "amount_ils": 1012.73
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 31.83,
+          "amount_ils": 115.22
+        },
+        {
+          "type": "Direct Signature",
+          "amount_usd": 7.98,
+          "amount_ils": 28.89
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 11.84,
+          "amount_ils": 42.86
+        },
+        {
+          "type": "AHS Freight",
+          "amount_usd": 46.71,
+          "amount_ils": 169.09
+        }
+      ],
+      "taxable_usd": 66.53,
+      "non_taxable_usd": 311.59,
+      "subtotal_usd": 378.12
+    },
+    {
+      "tracking_number": "888947333543",
+      "ship_date": "2025-12-07",
+      "service_type": "International Priority Freight",
+      "pieces": 8,
+      "actual_weight_kg": 37.49,
+      "billed_weight_kg": 71.12,
+      "dimensions_cm": "114x56x48",
+      "reference": null,
+      "shipper": {
+        "name": "NovaTech Industries",
+        "city": "Rehovot",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Atlas Components SRL",
+        "city": "Milan",
+        "country": "IT"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 72.9,
+          "amount_ils": 263.9
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 12.32,
+          "amount_ils": 44.6
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 12.56,
+          "amount_ils": 45.47
+        }
+      ],
+      "taxable_usd": 12.56,
+      "non_taxable_usd": 85.22,
+      "subtotal_usd": 97.78
+    },
+    {
+      "tracking_number": "888982825679",
+      "ship_date": "2025-11-20",
+      "service_type": "International First",
+      "pieces": 8,
+      "actual_weight_kg": 82.39,
+      "billed_weight_kg": 140.48,
+      "dimensions_cm": "61x28x20",
+      "reference": null,
+      "shipper": {
+        "name": "NovaTech Industries",
+        "city": "Rehovot",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Silver Stream Corp.",
+        "city": "New York",
+        "country": "US"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 322.87,
+          "amount_ils": 1168.79
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -77.18,
+          "amount_ils": -279.39
+        },
+        {
+          "type": "Fuel Surcharge",
+          "amount_usd": 53.6,
+          "amount_ils": 194.03
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 16.73,
+          "amount_ils": 60.56
+        }
+      ],
+      "taxable_usd": 16.73,
+      "non_taxable_usd": 299.29,
+      "subtotal_usd": 316.02
+    },
+    {
+      "tracking_number": "888925766039",
+      "ship_date": "2025-11-29",
+      "service_type": "International Economy Freight",
+      "pieces": 6,
+      "actual_weight_kg": 53.11,
+      "billed_weight_kg": 92.82,
+      "dimensions_cm": "26x41x27",
+      "reference": "PO-402020",
+      "shipper": {
+        "name": "Acme Logistics",
+        "city": "Petah Tikva",
+        "country": "IL"
+      },
+      "consignee": {
+        "name": "Nordic Tech Solutions",
+        "city": "Stockholm",
+        "country": "SE"
+      },
+      "charges": [
+        {
+          "type": "Transportation",
+          "amount_usd": 216.82,
+          "amount_ils": 784.89
+        },
+        {
+          "type": "Discount",
+          "amount_usd": -16.11,
+          "amount_ils": -58.32
+        },
+        {
+          "type": "Demand Surcharge",
+          "amount_usd": 12.28,
+          "amount_ils": 44.45
+        },
+        {
+          "type": "Third Party Billing",
+          "amount_usd": 14.92,
+          "amount_ils": 54.01
+        }
+      ],
+      "taxable_usd": 27.2,
+      "non_taxable_usd": 200.71,
+      "subtotal_usd": 227.91
+    }
+  ]
+}

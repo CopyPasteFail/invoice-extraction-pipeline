@@ -1,0 +1,172 @@
+{
+  "doc_type": "customs_entry",
+  "entry_number": "ABC-1234567-8",
+  "entry_date": "2025-11-18",
+  "importer_name": "GLOBEX SHIPPING LTD.",
+  "broker_name": "PACIFIC RIM CUSTOMS BROKERS INC.",
+  "bill_of_lading": "MAEU219384756",
+  "total_customs_value": 198820.0,
+  "total_taxes": 51508.68,
+  "mpf_amount": 614.35,
+  "hmf_amount": 248.53,
+  "currency": "USD",
+  "line_items": [
+    {
+      "line_number": "1",
+      "hts_code": "8471.30.0100",
+      "description": "ELECTRONIC COMPONENTS NES",
+      "customs_value": 45200.0,
+      "duty_rate_percent": 2.6,
+      "duty_amount": 1175.2,
+      "subcodes": [
+        {
+          "code": "9903.88.03",
+          "description": "Section 301 Tariff - List 3",
+          "rate_percent": 25.0,
+          "amount": 11300.0
+        },
+        {
+          "code": "9902.01.88",
+          "description": "Temp Mod - Electronics",
+          "rate_percent": null,
+          "amount": null
+        }
+      ],
+      "mpf_amount": 156.57,
+      "hmf_amount": 56.5,
+      "total_tax_amount": 12688.27
+    },
+    {
+      "line_number": "2",
+      "hts_code": "5407.61.9930",
+      "description": "TEXTILE FABRICS SYNTHETIC WOVEN",
+      "customs_value": 18750.0,
+      "duty_rate_percent": 14.9,
+      "duty_amount": 2793.75,
+      "subcodes": [
+        {
+          "code": "9903.88.02",
+          "description": "Section 301 Tariff - List 2",
+          "rate_percent": 25.0,
+          "amount": 4687.5
+        }
+      ],
+      "mpf_amount": 64.95,
+      "hmf_amount": 23.44,
+      "total_tax_amount": 7569.64
+    },
+    {
+      "line_number": "3",
+      "hts_code": "8544.42.9090",
+      "description": "INSULATED COPPER WIRE CONDUCTORS",
+      "customs_value": 32100.0,
+      "duty_rate_percent": 3.5,
+      "duty_amount": 1123.5,
+      "subcodes": [
+        {
+          "code": "9903.88.03",
+          "description": "Section 301 Tariff - List 3",
+          "rate_percent": 25.0,
+          "amount": 8025.0
+        },
+        {
+          "code": "9817.95.05",
+          "description": "Temp Reduction - Wire",
+          "rate_percent": null,
+          "amount": null
+        }
+      ],
+      "mpf_amount": 111.19,
+      "hmf_amount": 40.13,
+      "total_tax_amount": 9299.82
+    },
+    {
+      "line_number": "4",
+      "hts_code": "3926.90.9996",
+      "description": "PLASTIC ARTICLES NESOI",
+      "customs_value": 12450.0,
+      "duty_rate_percent": 5.3,
+      "duty_amount": 659.85,
+      "subcodes": [
+        {
+          "code": "9902.25.41",
+          "description": "Temp Mod - Plastics",
+          "rate_percent": null,
+          "amount": null
+        }
+      ],
+      "mpf_amount": 43.13,
+      "hmf_amount": 15.56,
+      "total_tax_amount": 718.54
+    },
+    {
+      "line_number": "5",
+      "hts_code": "7318.15.2065",
+      "description": "STAINLESS STEEL BOLTS SCREWS",
+      "customs_value": 8920.0,
+      "duty_rate_percent": 0.0,
+      "duty_amount": 0.0,
+      "subcodes": [
+        {
+          "code": "9902.06.13",
+          "description": "Temp Duty Suspension",
+          "rate_percent": null,
+          "amount": null
+        }
+      ],
+      "mpf_amount": 30.9,
+      "hmf_amount": 11.15,
+      "total_tax_amount": 42.05
+    },
+    {
+      "line_number": "6",
+      "hts_code": "6109.10.0040",
+      "description": "COTTON T-SHIRTS MENS KNITTED",
+      "customs_value": 27600.0,
+      "duty_rate_percent": 16.5,
+      "duty_amount": 4554.0,
+      "subcodes": [
+        {
+          "code": "9903.88.15",
+          "description": "Section 301 Tariff - Misc",
+          "rate_percent": 7.5,
+          "amount": 2070.0
+        }
+      ],
+      "mpf_amount": 95.61,
+      "hmf_amount": 34.5,
+      "total_tax_amount": 6754.11
+    },
+    {
+      "line_number": "7",
+      "hts_code": "8504.40.9540",
+      "description": "STATIC CONVERTERS POWER SUPPLY",
+      "customs_value": 53800.0,
+      "duty_rate_percent": 1.5,
+      "duty_amount": 807.0,
+      "subcodes": [
+        {
+          "code": "9903.88.03",
+          "description": "Section 301 Tariff - List 3",
+          "rate_percent": 25.0,
+          "amount": 13450.0
+        },
+        {
+          "code": "9902.13.77",
+          "description": "Temp Mod - Power Equip",
+          "rate_percent": null,
+          "amount": null
+        },
+        {
+          "code": "9801.00.10",
+          "description": "US Goods Returned",
+          "rate_percent": null,
+          "amount": null
+        }
+      ],
+      "mpf_amount": 186.36,
+      "hmf_amount": 67.25,
+      "total_tax_amount": 14510.61
+    }
+  ]
+}

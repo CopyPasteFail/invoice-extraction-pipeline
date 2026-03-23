@@ -1,0 +1,12 @@
+app:
+  output_dir: out
+  vendor_routing_confidence_threshold: 0.85
+  fallback_confidence_threshold: 0.85
+  allow_within_family_reroute_once: true
+  allow_family_reroute: false
+  always_include_empty_arrays: true
+  artifact_store:
+    provider: local
+    base_dir: out/artifacts
+  fallback_provider:
+    provider: stub

@@ -1,0 +1,51 @@
+{
+  "doc_type": "freight_invoice",
+  "invoice_number": "INV2025001",
+  "invoice_date": "2025-01-15",
+  "total_amount": 3748.0,
+  "currency": "USD",
+  "forwarder_name": "GLOBEX MARITIME SERVICES",
+  "client_name": "GLOBEX SHIPPING LTD.",
+  "shipment_id": "GM-2025-00142",
+  "vessel_voyage": "MSC ISABELLA / 2025W03",
+  "port_of_loading": "CNNBO",
+  "port_of_discharge": "ILASH",
+  "etd": "2025-01-20",
+  "eta": "2025-02-18",
+  "container_info": {
+    "container_number": "EMCU7654321",
+    "container_type": "40HQ"
+  },
+  "line_items": [
+    {
+      "description": "Ocean Freight (CNNBO - ILASH)",
+      "quantity": "1 x 40HQ",
+      "amount": 2850.0,
+      "currency": "USD"
+    },
+    {
+      "description": "THC - Terminal Handling Charge (Origin)",
+      "quantity": "1 x 40HQ",
+      "amount": 375.0,
+      "currency": "USD"
+    },
+    {
+      "description": "Documentation Fee",
+      "quantity": "1",
+      "amount": 85.0,
+      "currency": "USD"
+    },
+    {
+      "description": "BAF - Bunker Adjustment Factor",
+      "quantity": "1 x 40HQ",
+      "amount": 420.0,
+      "currency": "USD"
+    },
+    {
+      "description": "ISPS Security Surcharge",
+      "quantity": "1 x 40HQ",
+      "amount": 18.0,
+      "currency": "USD"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+carrier_invoice:
+  required:
+    - invoice_number
+    - invoice_date
+    - customer_number
+    - total_amount_usd
+    - shipments[].tracking_number
+    - shipments[].subtotal_usd
+  important:
+    - due_date
+    - bill_to.name
+    - shipments[].ship_date
+    - shipments[].service_type
+    - shipments[].charges[]
+  optional:
+    - bill_to.address
+    - shipments[].dimensions_cm
+    - shipments[].reference
+    - shipments[].actual_weight_kg
+    - shipments[].billed_weight_kg
+  conditional:
+    - when: shipments[].charges[] exists
+      require:
+        - shipments[].charges[].description
+        - shipments[].charges[].amount_usd
+
+ocean_invoice:
+  required:
+    - invoice_number
+    - invoice_date
+    - currency
+    - total_amount
+    - forwarder_name
+    - client_name
+    - line_items[].description
+    - line_items[].amount
+  important:
+    - shipment_id
+    - vessel_voyage
+    - port_of_loading
+    - port_of_discharge
+    - etd
+    - eta
+    - container_info
+  optional: []
+  conditional: []
+
+customs_entry:
+  required:
+    - entry_number
+    - entry_date
+    - importer_name
+    - total_customs_value
+    - total_taxes
+    - currency
+    - line_items[].line_number
+    - line_items[].hts_code
+    - line_items[].customs_value
+    - line_items[].total_tax_amount
+  important:
+    - broker_name
+    - bill_of_lading
+    - mpf_amount
+    - hmf_amount
+    - line_items[].duty_rate_percent
+    - line_items[].duty_amount
+    - line_items[].subcodes[]
+  optional: []
+  conditional:
+    - when: line_items[].subcodes[] exists
+      require:
+        - line_items[].subcodes[].code
+
+supplier_workbook:
+  required:
+    - batch_number
+    - invoice_date
+    - period_start
+    - period_end
+    - supplier_name
+    - client_name
+    - total_amount
+    - currency
+    - categories[].category
+    - categories[].subtotal
+    - categories[].line_items[].description
+    - categories[].line_items[].amount
+  important:
+    - categories[].line_items[].date
+    - categories[].line_items[].quantity
+    - categories[].line_items[].unit_rate
+    - categories[].line_items[].reference
+  optional: []
+  conditional: []

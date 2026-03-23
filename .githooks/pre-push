@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+if [ -x ".venv-hooks/Scripts/python.exe" ]; then
+  PYTHON=".venv-hooks/Scripts/python.exe"
+elif [ -x ".venv-hooks/bin/python" ]; then
+  PYTHON=".venv-hooks/bin/python"
+else
+  echo "Missing .venv-hooks. Run scripts/setup-dev-hooks.ps1 or scripts/setup-dev-hooks.sh first."
+  exit 1
+fi
+
+"$PYTHON" -m mypy src validate.py
+"$PYTHON" -m ruff check .
+"$PYTHON" -m bandit -q -r src validate.py

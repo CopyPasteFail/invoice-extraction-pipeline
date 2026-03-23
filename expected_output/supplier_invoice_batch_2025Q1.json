@@ -1,0 +1,343 @@
+{
+  "doc_type": "supplier_invoice_batch",
+  "batch_number": "BATCH-2025Q1-0847",
+  "invoice_date": "2025-03-31",
+  "period_start": "2025-01-01",
+  "period_end": "2025-03-31",
+  "supplier_name": "APEX WAREHOUSING & DISTRIBUTION LTD.",
+  "client_name": "GLOBEX SHIPPING LTD.",
+  "total_amount": 22792.1,
+  "currency": "USD",
+  "categories": [
+    {
+      "category": "Storage Charges",
+      "subtotal": 11897.1,
+      "line_items": [
+        {
+          "date": "2025-01-03",
+          "description": "Automotive Parts - Class A (SKU-40821)",
+          "quantity": 12,
+          "unit_rate": 2.75,
+          "amount": 1023.0,
+          "reference": null
+        },
+        {
+          "date": "2025-01-03",
+          "description": "Automotive Parts - Class B (SKU-40822)",
+          "quantity": 8,
+          "unit_rate": 2.75,
+          "amount": 682.0,
+          "reference": null
+        },
+        {
+          "date": "2025-01-05",
+          "description": "Consumer Electronics (fragile) (SKU-51003)",
+          "quantity": 6,
+          "unit_rate": 3.5,
+          "amount": 567.0,
+          "reference": null
+        },
+        {
+          "date": "2025-01-10",
+          "description": "Consumer Electronics - Displays (SKU-51004)",
+          "quantity": 4,
+          "unit_rate": 4.25,
+          "amount": 374.0,
+          "reference": null
+        },
+        {
+          "date": "2025-01-15",
+          "description": "Pharma supplies (temp controlled) (SKU-60100)",
+          "quantity": 3,
+          "unit_rate": 6.5,
+          "amount": 331.5,
+          "reference": null
+        },
+        {
+          "date": "2025-01-20",
+          "description": "Textiles - Bulk Roll Fabric (SKU-72001)",
+          "quantity": 20,
+          "unit_rate": 1.85,
+          "amount": 444.0,
+          "reference": null
+        },
+        {
+          "date": "2025-02-01",
+          "description": "Automotive Parts - Class A (SKU-40821)",
+          "quantity": 12,
+          "unit_rate": 2.75,
+          "amount": 924.0,
+          "reference": null
+        },
+        {
+          "date": "2025-02-01",
+          "description": "Automotive Parts - Class B (SKU-40822)",
+          "quantity": 8,
+          "unit_rate": 2.75,
+          "amount": 616.0,
+          "reference": null
+        },
+        {
+          "date": "2025-02-03",
+          "description": "Consumer Electronics (fragile) (SKU-51003)",
+          "quantity": 6,
+          "unit_rate": 3.5,
+          "amount": 546.0,
+          "reference": null
+        },
+        {
+          "date": "2025-02-05",
+          "description": "Pharma supplies (temp controlled) (SKU-60100)",
+          "quantity": 5,
+          "unit_rate": 6.5,
+          "amount": 780.0,
+          "reference": null
+        },
+        {
+          "date": "2025-02-10",
+          "description": "Textiles - Bulk Roll Fabric (SKU-72001)",
+          "quantity": 15,
+          "unit_rate": 1.85,
+          "amount": 527.25,
+          "reference": null
+        },
+        {
+          "date": "2025-02-14",
+          "description": "Sporting Goods - Oversized (SKU-80550)",
+          "quantity": 7,
+          "unit_rate": 3.25,
+          "amount": 341.25,
+          "reference": null
+        },
+        {
+          "date": "2025-03-01",
+          "description": "Automotive Parts - Class A (SKU-40821)",
+          "quantity": 10,
+          "unit_rate": 2.75,
+          "amount": 852.5,
+          "reference": null
+        },
+        {
+          "date": "2025-03-01",
+          "description": "Consumer Electronics (fragile) (SKU-51003)",
+          "quantity": 8,
+          "unit_rate": 3.5,
+          "amount": 868.0,
+          "reference": null
+        },
+        {
+          "date": "2025-03-03",
+          "description": "Pharma supplies (temp controlled) (SKU-60100)",
+          "quantity": 5,
+          "unit_rate": 6.5,
+          "amount": 942.5,
+          "reference": null
+        },
+        {
+          "date": "2025-03-05",
+          "description": "Textiles - Bulk Roll Fabric (SKU-72001)",
+          "quantity": 18,
+          "unit_rate": 1.85,
+          "amount": 899.1,
+          "reference": null
+        },
+        {
+          "date": "2025-03-10",
+          "description": "Sporting Goods - Oversized (SKU-80550)",
+          "quantity": 9,
+          "unit_rate": 3.25,
+          "amount": 643.5,
+          "reference": null
+        },
+        {
+          "date": "2025-03-15",
+          "description": "Houseware & Kitchen Items (SKU-90201)",
+          "quantity": 14,
+          "unit_rate": 2.25,
+          "amount": 535.5,
+          "reference": null
+        }
+      ]
+    },
+    {
+      "category": "Handling & Services",
+      "subtotal": 5560.0,
+      "line_items": [
+        {
+          "date": "2025-01-08",
+          "description": "Inbound Receipt",
+          "quantity": 12,
+          "unit_rate": 45.0,
+          "amount": 540.0,
+          "reference": "RCV-20250108-001"
+        },
+        {
+          "date": "2025-01-12",
+          "description": "Outbound Pick&Pack",
+          "quantity": 85,
+          "unit_rate": 3.75,
+          "amount": 318.75,
+          "reference": "SHP-20250112-004"
+        },
+        {
+          "date": "2025-01-18",
+          "description": "Labeling",
+          "quantity": 200,
+          "unit_rate": 0.65,
+          "amount": 130.0,
+          "reference": "LBL-20250118-002"
+        },
+        {
+          "date": "2025-01-22",
+          "description": "Palletization",
+          "quantity": 8,
+          "unit_rate": 18.5,
+          "amount": 148.0,
+          "reference": "PAL-20250122-001"
+        },
+        {
+          "date": "2025-01-30",
+          "description": "Returns Processing",
+          "quantity": 24,
+          "unit_rate": 8.25,
+          "amount": 198.0,
+          "reference": "RET-20250130-003"
+        },
+        {
+          "date": "2025-02-05",
+          "description": "Inbound Receipt",
+          "quantity": 18,
+          "unit_rate": 45.0,
+          "amount": 810.0,
+          "reference": "RCV-20250205-002"
+        },
+        {
+          "date": "2025-02-11",
+          "description": "Outbound Pick&Pack",
+          "quantity": 142,
+          "unit_rate": 3.75,
+          "amount": 532.5,
+          "reference": "SHP-20250211-007"
+        },
+        {
+          "date": "2025-02-15",
+          "description": "Labeling",
+          "quantity": 350,
+          "unit_rate": 0.65,
+          "amount": 227.5,
+          "reference": "LBL-20250215-005"
+        },
+        {
+          "date": "2025-02-20",
+          "description": "Palletization",
+          "quantity": 12,
+          "unit_rate": 18.5,
+          "amount": 222.0,
+          "reference": "PAL-20250220-003"
+        },
+        {
+          "date": "2025-02-27",
+          "description": "Returns Processing",
+          "quantity": 15,
+          "unit_rate": 8.25,
+          "amount": 123.75,
+          "reference": "RET-20250227-001"
+        },
+        {
+          "date": "2025-03-04",
+          "description": "Inbound Receipt",
+          "quantity": 22,
+          "unit_rate": 45.0,
+          "amount": 990.0,
+          "reference": "RCV-20250304-004"
+        },
+        {
+          "date": "2025-03-12",
+          "description": "Outbound Pick&Pack",
+          "quantity": 210,
+          "unit_rate": 3.75,
+          "amount": 787.5,
+          "reference": "SHP-20250312-009"
+        },
+        {
+          "date": "2025-03-18",
+          "description": "Labeling",
+          "quantity": 425,
+          "unit_rate": 0.65,
+          "amount": 276.25,
+          "reference": "LBL-20250318-008"
+        },
+        {
+          "date": "2025-03-25",
+          "description": "Returns Processing",
+          "quantity": 31,
+          "unit_rate": 8.25,
+          "amount": 255.75,
+          "reference": "RET-20250325-002"
+        }
+      ]
+    },
+    {
+      "category": "Additional Charges",
+      "subtotal": 5335.0,
+      "line_items": [
+        {
+          "date": null,
+          "description": "Warehouse Insurance - Q1 2025",
+          "quantity": null,
+          "unit_rate": null,
+          "amount": 1850.0,
+          "reference": "INS-2025-Q1"
+        },
+        {
+          "date": null,
+          "description": "Rush Processing Fee (3 orders)",
+          "quantity": null,
+          "unit_rate": null,
+          "amount": 375.0,
+          "reference": "RUSH-20250115"
+        },
+        {
+          "date": null,
+          "description": "Special Handling - Hazmat Compliance",
+          "quantity": null,
+          "unit_rate": null,
+          "amount": 425.0,
+          "reference": "HAZ-20250203"
+        },
+        {
+          "date": null,
+          "description": "Forklift Equipment Rental - February",
+          "quantity": null,
+          "unit_rate": null,
+          "amount": 1200.0,
+          "reference": "EQUIP-202502"
+        },
+        {
+          "date": null,
+          "description": "Temperature Monitoring Service",
+          "quantity": null,
+          "unit_rate": null,
+          "amount": 650.0,
+          "reference": "TEMP-2025-Q1"
+        },
+        {
+          "date": null,
+          "description": "After-hours Loading (2 occurrences)",
+          "quantity": null,
+          "unit_rate": null,
+          "amount": 550.0,
+          "reference": "AH-20250308"
+        },
+        {
+          "date": null,
+          "description": "Pallet Disposal & Recycling Fee",
+          "quantity": null,
+          "unit_rate": null,
+          "amount": 285.0,
+          "reference": "DISP-2025-Q1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+families:
+  carrier_invoice:
+    generic_extractor: generic.carrier_invoice
+    vendor_detection_enabled: true
+    vendor_confidence_threshold: 0.65
+    vendors:
+      fedex:
+        confidence_threshold: 0.65
+        dedicated_extractor: dedicated.fedex_carrier_invoice
+
+  ocean_invoice:
+    generic_extractor: generic.ocean_invoice
+    vendor_detection_enabled: true
+    vendor_confidence_threshold: 0.85
+    vendors: {}
+
+  customs_entry:
+    generic_extractor: generic.customs_entry
+    vendor_detection_enabled: true
+    vendor_confidence_threshold: 0.85
+    vendors: {}
+
+  supplier_workbook:
+    generic_extractor: generic.supplier_workbook
+    vendor_detection_enabled: true
+    vendor_confidence_threshold: 0.85
+    vendors: {}
