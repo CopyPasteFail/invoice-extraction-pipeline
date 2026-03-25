@@ -14,6 +14,7 @@ Architecture demo for deterministic-first invoice and document extraction with:
 - [System Architecture](docs/architecture/system-architecture.md)
 - [Architecture Overview Diagram](docs/architecture/architecture-overview.md)
 - [Design Review Notes](docs/architecture/design-review-notes.md)
+- [Pipeline Routing](docs/architecture/pipeline-routing.md)
 
 ## Quick start
 
@@ -183,11 +184,6 @@ What it is for:
 - regression testing against the benchmark corpus
 - checking pipeline behavior after code changes
 - confirming that classification, routing, extraction, and final normalization still produce the expected results
-
-What it is not for:
-
-- validating a single JSON file against the published schema
-- replacing the per-document logs and artifacts produced during normal extraction runs
 
 A file can pass `validate.py` and still fail this check if the pipeline extracted the wrong values, selected the wrong family, or produced output that differs from the canonical expected file.
 
