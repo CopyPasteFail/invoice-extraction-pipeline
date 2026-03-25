@@ -4,7 +4,7 @@
 
 This document summarizes how the system architecture was reviewed and refined.
 
-Its purpose is to show that the final architecture reflects iterative review, targeted challenge, and deliberate acceptance of specific changes rather than a one-pass draft.
+Its purpose is to show that the architecture document reflects iterative review, targeted challenge, and deliberate acceptance of specific changes rather than a one-pass draft.
 
 The canonical architecture remains in `system-architecture.md`.
 
@@ -21,29 +21,29 @@ The architecture was reviewed as a production-oriented backend and platform desi
 - observability, recoverability, and operational control
 
 **Review was intentionally critical.**
-**Weak or underspecified areas were challenged, and the final architecture document was updated only where the change improved realism or clarity without over-specifying implementation details.**
+**Weak or underspecified areas were challenged, and the architecture document was updated only where the change improved realism or clarity without over-specifying implementation details.**
 
 ## Main review themes
 
 ### Workflow and orchestration
 
-Review focused on workflow boundaries, payload discipline, retry scope, replay behavior, and human review reinsertion. The final architecture tightened the distinction between orchestration state and operational data, and clarified where new execution paths are expected.
+Review focused on workflow boundaries, payload discipline, retry scope, replay behavior, and human review reinsertion. The reviewed architecture now makes a clearer distinction between orchestration state and operational data, and clarifies where new execution paths are expected.
 
 ### Multi-tenant safety
 
-Review focused on tenant isolation across storage, data access, queue-backed execution, connector credentials, and runtime behavior. The final architecture now states tenant-fair operational expectations more explicitly and strengthens the treatment of tenant-governed runtime configuration.
+Review focused on tenant isolation across storage, data access, queue-backed execution, connector credentials, and runtime behavior. The reviewed architecture now states tenant-fair operational expectations more explicitly and strengthens the treatment of tenant-governed runtime configuration.
 
 ### Storage and operational data
 
-Review focused on whether the storage model was realistic for a production system, including relational versus object storage boundaries, read load expectations, artifact retention, and blob deduplication behavior. The final architecture remained conservative and operationally grounded.
+Review focused on whether the storage model was realistic for a production system, including relational versus object storage boundaries, read load expectations, artifact retention, and blob deduplication behavior. The reviewed architecture remains conservative and operationally grounded.
 
 ### LLM governance and execution boundaries
 
-Review focused on whether model-assisted stages were bounded correctly, whether provider access was controlled properly, and whether malformed outputs, fallback, and policy routing were handled credibly. The final architecture tightened the LLM Gateway boundary and made model-stage guardrails more explicit.
+Review focused on whether model-assisted stages were bounded correctly, whether provider access was controlled properly, and whether malformed outputs, fallback, and policy routing were handled credibly. The reviewed architecture tightens the LLM Gateway boundary and makes model-stage guardrails more explicit.
 
 ### Auditability, observability, and recoverability
 
-Review focused on whether the platform could be operated, debugged, and defended in production. The final architecture now more clearly covers distributed tracing, audit-history hardening, and a baseline backup and disaster-recovery posture.
+Review focused on whether the platform could be operated, debugged, and defended in production. The reviewed architecture now more clearly covers distributed tracing, audit-history hardening, and a baseline backup and disaster-recovery posture.
 
 ## Material changes accepted into the architecture
 
@@ -84,4 +84,4 @@ These areas remain open because the architecture is meant to define a credible p
 
 ## Final note
 
-The final architecture should be read as a reviewed and curated system design. It was iterated through critical feedback, but only selected changes were accepted. The resulting document reflects deliberate scope control: it is more specific where production realism required it, and still intentionally open where further product or implementation decisions are better made later.
+The architecture document should be read as a reviewed and curated system design. It was iterated through critical feedback, but only selected changes were accepted. The resulting document reflects deliberate scope control: it is more specific where production realism required it, and still intentionally open where further product or implementation decisions are better made later.
