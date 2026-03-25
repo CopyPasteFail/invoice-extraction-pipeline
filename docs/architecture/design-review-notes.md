@@ -49,23 +49,22 @@ Review focused on whether the platform could be operated, debugged, and defended
 
 The following changes were accepted and integrated into the architecture document during review:
 
-- clarified that Step Functions payloads should carry identifiers and orchestration context, not large mutable processing state
-- added workflow-type awareness so workflow boundaries stay aligned with execution limits, duration, and cost shape
-- added connection-management expectations for shared PostgreSQL access from bursty EKS worker fleets
-- clarified that future operational read scaling may be introduced without changing the v1 baseline
-- added explicit tenant-fairness expectations for queue-backed execution
-- tightened the LLM Gateway so provider access is controlled through one mandatory boundary
-- added bounded input-shaping expectations for model-assisted stages
-- added explicit handling for schema-invalid or structurally malformed model outputs
-- clarified Case idempotency for the same active unresolved exception condition
-- removed duplicated idempotency wording from the event-backbone section
-- added artifact admission safety controls before deeper processing
-- added connector credential lifecycle handling for refresh, revocation, and delayed execution
-- added an ingress or edge baseline for externally exposed APIs
-- added a governed tenant runtime-configuration expectation
-- added technical hardening expectations for append-oriented audit history
-- added distributed tracing as a complement to entity-centered traceability
-- added backup, restore, and disaster-recovery expectations beyond simple high availability
+- clarified that Step Functions payloads should carry identifiers and orchestration context rather than large mutable processing state, so workflows stay lighter and easier to reason about
+- added workflow-type awareness so workflow boundaries can match the execution limits, expected duration, and cost profile of each workload shape
+- added connection-management expectations for shared PostgreSQL access from bursty EKS worker fleets, so database usage remains realistic under parallel worker spikes
+- v1 baseline stays simple and does not add operational read-scaling mechanisms up front, while still keeping the architecture flexible enough to support higher operational read demand later without a major redesign
+- added explicit tenant-fairness expectations for queue-backed execution, meaning the shared queueing and worker model should prevent one tenant’s workload from dominating system capacity and slowing down processing for other tenants
+- tightened the LLM Gateway so provider access is controlled through one mandatory boundary, which makes policy enforcement and credential isolation more consistent
+- clarified that AI-powered stages should receive carefully controlled inputs, rather than overly large, loosely defined, or open-ended data
+- added explicit handling for schema-invalid or structurally malformed model outputs, so the architecture accounts for failure paths instead of assuming clean responses
+- clarified Case idempotency for the same active unresolved exception condition, so the platform does not keep creating duplicate Cases for the same unresolved problem
+- added artifact admission safety controls before deeper processing, so unsafe or malformed files can be rejected or quarantined early
+- clarified that connector credentials need to be managed over time, including cases where access must be refreshed, revoked, or used after a delay, so integrations remain reliable and controllable
+- clarified that public APIs should sit behind a dedicated entry layer, so incoming traffic is routed and protected before it reaches backend services
+- clarified that tenant-specific runtime behavior can be configured, but only within platform-controlled rules and limits
+- clarified that audit history should be better protected from accidental changes or improper modification
+- clarified that operators should be able to trace requests and workflow activity across multiple services, not just follow individual business entities
+- clarified that recovery planning should cover backup, restore, and disaster recovery, not just keeping services available during normal failures
 
 ## Areas left intentionally open
 
